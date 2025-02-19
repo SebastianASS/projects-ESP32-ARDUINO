@@ -1,3 +1,6 @@
+//Este codigo permite recibir una señal de un arduino para enviar un valor afirmativo a una base de datos, para generar un registro 
+//de fecha y hora de activacion.
+
 #include <WiFi.h>//
 #include "time.h"//
 #include <FirebaseESP32.h>
