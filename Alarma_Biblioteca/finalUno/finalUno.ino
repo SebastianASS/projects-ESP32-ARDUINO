@@ -1,3 +1,7 @@
+//Este codigo permite integrar al dispositivo un sensor de sonido que detecta niveles de sonido, para definir en que momento se activa 
+//la alarma. Fisicamente se realizó un sistema que simualara un reproductor de sonido para conectar una speakers y arrojar la alarma 
+//al ambiente para dar aviso del ruido dentro de la Biblioteca.
+
 #include "SD.h"
 #define SD_ChipSelectPin 4
 #include "TMRpcm.h"
