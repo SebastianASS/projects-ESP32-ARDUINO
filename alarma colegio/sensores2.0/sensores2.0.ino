@@ -1,3 +1,8 @@
+//Este codigo permite la lectura de sensores de movimiento, cuando uno de los sensores detecta cambios de temperatura en el ambiente,
+//automaticamente realizaba una llamada a un usuario de telegram seleccionado desde la base de datos, esto con el fin de dar aviso 
+//a la comunidad o las autoridades de que existe presencia inusual. Ademas, envia una señal a la base de datos para que sea leida por 
+//el otro dispositivo y encienda la alarma del colegio.
+
 #include <WiFi.h>
 #include "time.h"
 #include <FirebaseESP32.h>
