@@ -1,3 +1,7 @@
+//Este codigo permitia leer una señal que enviaba el otro dispositvo hacia la base de datos, cuando la señal era afirmativa
+//se activaba un relay que permitia la polarizacion del timbre del colegio, haciendolo sonar para dar alarma a la comunidad.
+//Tambien obtenia la fecha y hora local para almacenar el instante en el que se enciende la alarma.
+
 #include <WiFi.h>
 #include "time.h"
 #include <FirebaseESP32.h>
@@ -16,7 +20,6 @@ String fechaActual;
 String horaActual;
 int relay = 4;
 int led = 2;
-
 
 void setup() {
   pinMode(relay,OUTPUT);
